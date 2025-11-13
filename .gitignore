@@ -1,0 +1,40 @@
+# === BUILD ===
+target/
+out/
+build/
+
+# === LOGS ===
+*.log
+
+# === ENVIRONMENT / SECRETS ===
+.env
+*.env
+**/*.env
+
+# Bloquear archivo donde GitHub detectó el Client ID y Secret
+facultades-backend/.env
+
+# === RUN CONFIGS (donde también detectó secretos) ===
+.run/
+facultades-backend/.run/
+facultades-backend/.run/*
+
+# === APPLICATION CONFIG (contiene credenciales) ===
+application.properties
+application.yml
+application.yaml
+
+# === IDEs ===
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# === SYSTEM FILES ===
+.DS_Store
+Thumbs.db
+
+# === JAVA ===
+*.class

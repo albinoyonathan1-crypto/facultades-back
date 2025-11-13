@@ -1,0 +1,9 @@
+/* Estilos para los párrafos */
+p {
+    color: rgb(255, 0, 0);
+    line-height: 1.5;
+}
+
+h1 {
+    color:green;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Correo de prueba con html</title>
+    <style>
+        /* Estilos CSS internos */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-weight: bold
+        }
+    </style>
+</head>
+<body>
+<h1>¡Hola!</h1>
+<p th:text="${mensaje}">Contenido del mensaje</p>
+</body>
+</html>
